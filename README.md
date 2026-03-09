@@ -11,7 +11,7 @@
 
 カウンターアプリの作成を通して、Reactの基本的な概念を学びます。
 
-- [ReactとHTML * ](01-react-basics/react-and-html.md)
+- [ReactとHTML](01-react-basics/react-and-html.md)
 - [TypescriptとjavaScript * ](01-react-basics/typescript-and-javascript.md)
 - [プロジェクトの作成 * ](01-react-basics/project-setup.md)
 - [コンポーネント * ](01-react-basics/components.md)
