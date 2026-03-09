@@ -1,6 +1,7 @@
 # react-lesson
 
 これはReactの基本事項を学ぶためのリポジトリです。Reactを利用したwebアプリケーションの開発に必要な知識を段階的に解説します。
+色々と誤りもあると思いますので随時修正していきます。
 >> (*) は現在作成中のページを示しています。
 
 
@@ -16,7 +17,7 @@
 - [コンポーネント * ](01-react-basics/components.md)
 - [Hooks * ](01-react-basics/hooks.md)
 
-## 2. 応用
+### 2. 応用
 
 テーマカラーの導入を通して、Reactの応用的な技術を学びます。
 
@@ -25,14 +26,14 @@
 - [状態管理 (jotai - atom) * ](02-advanced/state-management.md)
 - [tailwindcss * ](02-advanced/tailwindcss.md)
 
-## 3. 設計技法
+### 3. 設計技法
 
 電卓を作成して、設計技法を学びます。
 
 - [SOLID原則 * ](03-design/solid-principles.md)
 - [ドメイン駆動設計 * ](03-design/domain-driven-design.md)
 
-## 4. React / TypeScript を理解する
+### 4. React / TypeScript を理解する
 
 ReactとTypescriptの動作原理に踏み込んだ説明をします。
 
