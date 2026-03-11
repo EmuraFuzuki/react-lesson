@@ -17,8 +17,8 @@
 - [ReactとHTML](01-react-basics/react-and-html.md)
 - [TypescriptとjavaScript ](01-react-basics/typescript-and-javascript.md)
 - [プロジェクトの作成  ](01-react-basics/project-setup.md)
-- [コンポーネント * ](01-react-basics/components.md)
-- [Hooks * ](01-react-basics/hooks.md)
+- [コンポーネント ](01-react-basics/components.md)
+- [useState ](01-react-basics/use-state.md)
 
 [サンプルコード](01-react-basics/sample_code/README.md)
 

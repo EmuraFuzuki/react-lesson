@@ -1,27 +1,17 @@
-function Container(props: { children: React.ReactNode }) {
-  return (
-    <div>
-      <h2>Container</h2>
-      <p>-- start --</p>
-      <div className="container">{props.children}</div>
-      <p>-- end --</p>
-    </div>
-  );
-}
+import { useState } from 'react';
 
-function Greeting(props: { name: string }) {
-  return <h1>Hello, {props.name}!</h1>;
-}
 function App() {
+  const [count, setCount] = useState(0);
+
+  function increment() {
+    setCount(count + 1);
+  }
+
   return (
     <div>
       <h1>カウンターアプリ</h1>
-      <Container>
-        <Greeting name="Alice" />
-        <Greeting name="Bob" />
-        <Greeting name="Charlie" />
-        <Greeting name="David" />
-      </Container>
+      <p>カウント数 : {count}</p>
+      <button onClick={increment}>カウントアップ</button>
     </div>
   )
 }
