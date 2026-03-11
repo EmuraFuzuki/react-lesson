@@ -20,7 +20,7 @@ function App() {
   )
 }
 
-export default App
+export default App;
 ```
 するとブラウザに「カウンターアプリ」と表示されるはずです。これでReactアプリの起動は完了です。
 
